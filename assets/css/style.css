@@ -1,0 +1,108 @@
+/* General */
+body {
+    font-family: Arial;
+    /* background-image: url(/assets/img/imagen1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white; */
+}
+
+p {
+    padding: 3%;
+}
+
+
+/* Header */
+header {
+    background-color: rgb(167, 175, 92);
+    padding: 1%;
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 4px;
+    margin-top: 60px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1%;
+}
+
+/* Menu de navegación */
+#menu {
+    background-color: rgb(88, 148, 88);
+    padding: 1.5%;
+    }
+
+#menu a {
+    color: aliceblue;
+    padding: 0.8%;
+}
+
+#menu a:hover {
+    color: blue;
+}
+
+/* Borra las lineas de link */
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+/* Primera Sección */
+#quienes-somos h1 {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.color1 {
+    background-color:rgb(175, 255, 175);
+}
+
+.color2 {
+    background-color: rgb(255, 205, 169);
+}
+
+/* Segunda Sección */
+#segunda-seccion {
+    background-color: rgb(192, 208, 224);
+    padding: 3%;
+    margin-top: 4px;
+}
+
+#segunda-seccion h2 {
+    padding-bottom: 2%;
+}
+
+/* Productos */
+#productos h3,
+h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+/* Formato para caja */
+.grupo-productos {
+    overflow: hidden;
+}
+
+.caja {
+    box-sizing: border-box;
+    border: 1px solid rgb(133, 133, 133);
+    width: 33.33%;
+    float: left;
+}
+
+#productos img {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+/* Fin formato caja */
+

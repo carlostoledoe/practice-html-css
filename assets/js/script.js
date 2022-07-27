@@ -43,4 +43,9 @@ sr.reveal('#productos', {
     distance: '200px'
     });
 
-// Smooth Scrolling
+// Smooth Scrolling en Navbar
+$(".mov-smooth").on("click", function (e) {
+    e.preventDefault();
+    const href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(href).offset().top }, 900);
+});
